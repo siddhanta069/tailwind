@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className = "flex items-center gap-6">
         {links.map((link, index) => (
           <a 
-            href = {link.href} key={index} className="text-neutral-800 font-medium hover:text-neutral-600 transition duration-200">
+            href = {link.href} key={index} className="text-neutral-800 font-medium hover:text-neutral-600 transition duration-200 cursor-pointer">
             {link.title}
           </a>
         ))} 
